@@ -10,12 +10,16 @@ Social insects ... moving in a direction with no sense of rules...
 2. Can you tell me what r of t is for some non-zero t value?
     - pick coordinate system, where r is the position vector from the origin to the point on the river
 
+#### Approach
+1. Energy
+    - no one has come up with a rational
 
 #### Problems to Think About
 1. How do you know when you are close?
     - i.e. who are the neighbors?
     - number of neighbors
     - so, the location of each point depends on the neighbor
+    - go down the list to see if any other points are close on a list
 2. What direction am I moving?
 3. What rate am I moving out?
 4. Width of river
@@ -26,24 +30,26 @@ Social insects ... moving in a direction with no sense of rules...
         - if there are two, what does that mean?
 - every point will move radial outward based on the normal
 
-
 #### Important Objects
 1. Location
 
-
 #### Important Attributes
 For any point,
-
 1. Who are your neighbors?
     - each point should have an idea of local river width
     - property associated with each point
-
+2. Width
+3. Curvature
 
 #### Assumptions 
 1. The river width is not changing
     - i.e. the width is fixed
 2. Uniform material properties
     - the soil is well-packed
+
+#### First/Last Point
+There will be problems with the first and last point.
+    - small scale details
 
 ---
 ### 1. Breaking through
