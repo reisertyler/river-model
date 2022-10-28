@@ -54,15 +54,19 @@ For any point,
     - parabolic flow from looking above
     - parabolic flow from looking from the side
         - ignore this 
-        - example:
-        % ------------------------------
-        %           \        (Any river)
-        %  Water      \
-        %  flow -->     \
-        %               /
-        %             /
-        %           /
-        % ------------------------------
+    
+    example:
+        
+        ``` 
+         ------------------------------ 
+                   \        (Any river)
+          Water      \
+          flow -->     \
+                       /
+                     /
+                   /
+         ------------------------------ 
+        ``` 
 
 #### First/Last Point
 There will be problems with the first and last point.
@@ -78,4 +82,39 @@ There will be problems with the first and last point.
     - might be moving neighbors to the left
 
 two bends some closer and closer. How do you reroute the river?
+
+
+---
+#### Navier-Stokes
+**Problem:** these are just models and now we have more computing power.
+
+Emperical modeling for flow--it is curve fitting.
+
+Is it science to run numerical simulations (numerical models), take the results, then doing the curve fitting on the simulated data.
+
+- Curve fitting 
+- say they will talk about the Physics
+- Multiple levels removed from the physics
+- "it can get you to the moon and back"
+
+#### Rivers
+- drainage of great lakes
+- tributary looking for dinosaur tracks
+- "g input" utilize "g input" (matlab function) 
+    - utilize points 
+
+
+---
+#### Overview
+**Stage 1:** 
+ - two things come too close
+ - once they cross
+ - some leakage
+ - once it becomes majority of the flow
+ - left bank and right bank, acros river: once bank touches another bank
+ 
+**Stage 2:** 
+
+ 
+
 
