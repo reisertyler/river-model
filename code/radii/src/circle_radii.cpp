@@ -1,9 +1,10 @@
-// C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
 
+// ----------------------------------------------------------------
 // Function to find the circle on
 // which the given three points lie
+// ----------------------------------------------------------------
 void findCircle(int x1, int y1, int x2, int y2, int x3, int y3)
 {
     int x12 = x1 - x2;
@@ -32,21 +33,26 @@ void findCircle(int x1, int y1, int x2, int y2, int x3, int y3)
 
     int c = -pow(x1, 2) - pow(y1, 2) - 2 * g * x1 - 2 * f * y1;
 
-    // eqn of circle be x^2 + y^2 + 2*g*x + 2*f*y + c = 0
+    // ----------------------------------------------------------------
+    // Equation of circle is:  x^2 + y^2 + 2*g*x + 2*f*y + c = 0
     // where centre is (h = -g, k = -f) and radius r
     // as r^2 = h^2 + k^2 - c
+    // ----------------------------------------------------------------
     int h = -g;
     int k = -f;
     int sqr_of_r = h * h + k * k - c;
 
+    // ----------------------------------------------------------------
     // r is the radius
+    // ----------------------------------------------------------------
     float r = sqrt(sqr_of_r);
 
     cout << "Centre = (" << h << ", " << k << ")" << endl;
     cout << "Radius = " << r;
 }
-
+// ----------------------------------------------------------------
 // Driver code
+// ----------------------------------------------------------------
 int main()
 {
     int x1 = 1, y1 = 1;

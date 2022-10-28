@@ -13,6 +13,9 @@ Social insects ... moving in a direction with no sense of rules...
 #### Approach
 1. Energy
     - no one has come up with a rational
+2. Speed
+    - get the width and the flow from a website (average for the year)
+
 
 #### Problems to Think About
 1. How do you know when you are close?
@@ -46,6 +49,20 @@ For any point,
     - i.e. the width is fixed
 2. Uniform material properties
     - the soil is well-packed
+3. River is mostly flat
+4. Center will be flowing faster than the sides
+    - parabolic flow from looking above
+    - parabolic flow from looking from the side
+        - ignore this 
+        - example:
+        % ------------------------------
+        %           \        (Any river)
+        %  Water      \
+        %  flow -->     \
+        %               /
+        %             /
+        %           /
+        % ------------------------------
 
 #### First/Last Point
 There will be problems with the first and last point.
